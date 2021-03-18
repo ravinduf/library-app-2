@@ -1,1 +1,8 @@
-@import 'Welcome/welcome'
+@import 'Welcome/welcome';
+
+body {
+    font-family: Raleway, sans-serif;
+    height: 200vh;
+    width: 100%;
+    overflow-x: hidden;
+}
