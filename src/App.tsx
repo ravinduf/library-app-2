@@ -1,12 +1,14 @@
 import React from 'react';
 
 import './assets/stylesheets/main.scss'
-import Welcome from './components/Welcome/Welcome';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import LibraryView from './LibraryView';
 
 function App() {
   return (
     <React.Fragment>
-      <Welcome/>
+      <LibraryView/>
     </React.Fragment>
   );
 }

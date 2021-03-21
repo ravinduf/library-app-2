@@ -1,8 +1,15 @@
 @import 'Welcome/welcome';
 
+
 body {
     font-family: Raleway, sans-serif;
     height: 200vh;
     width: 100%;
     overflow-x: hidden;
+}
+
+.author-book{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
