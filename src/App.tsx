@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './assets/stylesheets/main.scss'
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 import LibraryView from './LibraryView';
 

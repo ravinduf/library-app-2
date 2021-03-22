@@ -1,4 +1,12 @@
+@import "~bootstrap/scss/bootstrap";
+@import 'variables';
+
 @import 'Welcome/welcome';
+
+@import 'Authors/title';
+@import 'Authors/add-author';
+@import 'Authors/author-form';
+@import 'Authors/author-list-item';
 
 
 body {

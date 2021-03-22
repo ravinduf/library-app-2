@@ -1,0 +1,23 @@
+.create-author-title {
+  color: $create-title-color;
+  border-bottom: 2px solid $create-title-color;
+  width: fit-content;
+}
+
+.add-author-form {
+  width: 70%;
+  margin-left: 50px;
+  height: fit-content;
+
+  .form-label {
+    font-size: 10px;
+  }
+
+  .create-author-btn {
+    background-color: $create-btn-color;
+    font-size: 13px;
+    padding: 5px 22px;
+    border-radius: 8px;
+  }
+}
+

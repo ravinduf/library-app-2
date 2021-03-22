@@ -1,6 +1,8 @@
 import React from 'react';
 
 import Welcome from './components/Welcome/Welcome';
+import Authors from './components/Authors/Authors';
+
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -22,7 +24,7 @@ const LibraryView = () => {
               <h1>Books</h1>
             </Col>
             <Col xs={12} md={5}>
-              <h1>Authors</h1>
+              <Authors/>
             </Col>
           </Row>
         </Container>
