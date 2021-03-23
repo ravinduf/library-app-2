@@ -1,0 +1,19 @@
+.book-item {
+  .action-btns {
+    display: None;
+
+  }
+
+  &:hover {
+    background-color: $hover-background-color;
+
+    .action-btns {
+      display: inline;
+    }
+  }
+
+  .action-btns {
+    cursor: pointer;
+    display: none;
+  }
+}

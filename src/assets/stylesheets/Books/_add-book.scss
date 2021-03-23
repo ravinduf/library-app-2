@@ -1,0 +1,17 @@
+.add-form {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.createLabel {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1.2em;
+
+  .PlusIcon {
+    color: $plus-btn-color;
+  }
+}

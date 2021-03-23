@@ -8,16 +8,37 @@
 @import 'Authors/author-form';
 @import 'Authors/author-list-item';
 
+@import "Books/book-title";
+@import "Books/book-list-item";
+@import "Books/add-book";
+@import "Books/book-form";
+@import 'Welcome/welcome';
+
 
 body {
-    font-family: Raleway, sans-serif;
-    height: 200vh;
-    width: 100%;
-    overflow-x: hidden;
+  font-family: Raleway, sans-serif;
+  height: 200vh;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .author-book{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
+
+%inputs {
+  border: 1px solid black;
+  border-radius: 0;
+  height: 32px;
+  }
+
+input[type=text] {
+  @extend %inputs;
+}
+
+input[type=number] {
+  @extend %inputs;
+}
+  

@@ -1,0 +1,44 @@
+.create-book-title {
+  color: $create-title-color;
+  border-bottom: 2px solid $create-title-color;
+  width: fit-content;
+}
+
+.text-center {
+  color: $create-title-color;
+  width: fit-content;
+  text-align: right;
+  padding-left: 40%;
+}
+
+.add-book-form {
+  width: 70%;
+  margin-left: 50px;
+  height: fit-content;
+
+  .form-label {
+    font-size: 10px;
+  }
+
+  .create-book-btn {
+    background-color: $create-btn-color;
+    font-size: 13px;
+    padding: 5px 22px;
+    border-radius: 8px;
+  }
+}
+
+.create-select {
+  [class$="ValueContainer"] {
+    padding-top: 0;
+  }
+
+  [class$="-Input"] {
+    padding: 0;
+  }
+
+  [class$="-singleValue"] {
+    margin-top: 0;
+  }
+}
+
