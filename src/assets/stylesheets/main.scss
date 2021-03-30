@@ -48,3 +48,68 @@ input[type=number] {
   font-size: 10px;
   margin-bottom: 0;
 }
+
+@media (max-width: 640px) {
+  .heading {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  h4 {
+    font-size: 1.2em;
+  }
+  h6 {
+    font-size: 0.8em;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+
+  body {
+    height: 150vh;
+  }
+
+  %forms {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  .add-author-form {
+    @extend %forms;
+  }
+
+  .add-book-form {
+    @extend %forms;
+  }
+
+  .add-author-title{
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 765px) {
+  .author-book{
+    flex-direction: column-reverse !important;
+    margin: 0px auto;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 560px){
+  %forms-tab {
+    width: 80%;
+    margin: 0 auto !important;
+    padding-bottom: 50px;
+
+  }
+
+  .add-author-form {
+    @extend %forms-tab;
+  }
+
+  .add-book-form {
+    @extend %forms-tab;
+  }
+}
