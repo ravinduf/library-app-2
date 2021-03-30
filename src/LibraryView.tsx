@@ -47,7 +47,7 @@ const LibraryView = () => {
         <Container fluid className="pt-4">
           <Row className="author-book">
             <Col xs={12} md={5}>
-              <Books/>
+              <Books authors={authors}/>
             </Col>
             <Col xs={12} md={5}>
               <Authors

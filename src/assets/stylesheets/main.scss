@@ -41,4 +41,10 @@ input[type=text] {
 input[type=number] {
   @extend %inputs;
 }
-  
+
+.error-msg{
+  padding-top: 2px;
+  color: red;
+  font-size: 10px;
+  margin-bottom: 0;
+}
