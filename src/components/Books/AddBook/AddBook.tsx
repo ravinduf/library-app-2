@@ -34,7 +34,7 @@ const AddBook: React.FC<addBookProps> = ({
     if (updateBook && !showForm) {
       setShowForm(true)
     }
-  })
+  }, [updateBook, showForm])
 
   return (
       <Container className="mt-3" fluid>

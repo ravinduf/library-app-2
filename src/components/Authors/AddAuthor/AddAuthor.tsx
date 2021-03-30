@@ -33,7 +33,7 @@ const AddAuthor: React.FC<AddAuthorProps> = ({
     if (updateAuthor && !showForm) {
       setShowForm(true);
     }
-  })
+  },[updateAuthor, showForm])
 
   return (
       <Container className="mt-3" fluid>
